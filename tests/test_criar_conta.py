@@ -19,4 +19,4 @@ def test_criar_conta_com_saldo_negativo():
         
 def test_criar_conta_com_saldo_em_string():
     with pytest.raises(ValueError, match="Valor de saldo inicial deve ser um número"):
-        ContaBancaria(-12345, "Alisson Deivison", "1000.0")
+        ContaBancaria(-12345, "Alisson Deivison", "1000")
