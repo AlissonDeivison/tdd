@@ -1,4 +1,4 @@
-from conta_bancaria import ContaBancaria
+from ..main import ContaBancaria
 import pytest
 
 def test_criar_conta_zero_saldo():
